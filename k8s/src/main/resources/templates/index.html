@@ -1,0 +1,63 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>상품 관리
+        <ul>
+            <li><a href="/message/items">상품 관리 - 메시지, 국제화</a></li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>
+
+
+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page | spring-security baby-steps</title>
+</head>
+
+
+
+<style>
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+<body>
+<!--<ul>
+    <li>상품 관리
+        <ul>
+            <li><a href="/message/items">상품 관리 - 메시지, 국제화</a></li>
+        </ul>
+    </li>
+</ul>-->
+<h1>Hello!</h1>
+<button class='button' onclick="location.href='/logout'">logout</button>
+<button class='button' onclick="location.href='message/items'">items</button>
+<br>
+<h1 th:text="${ip}">ip</h1><br/>
+
+<br>
+
+</body>
+</html>

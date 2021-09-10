@@ -1,0 +1,39 @@
+#spring:
+#  # Redis
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+##    password: admin
+#    password:
+#  # Session
+#  session:
+#    store-type: redis
+#    redis:
+#      flush-mode: on_save
+
+#######
+#spring:
+#  # Redis
+#  redis:
+#    host: redis-svc.default.svc.cluster.local
+#    port: 6379
+#    password:
+#  # Session
+#  session:
+#    store-type: redis
+#    redis:
+#      flush-mode: on_save
+
+
+security:
+  enable:
+    csrf: false
+
+
+###############3
+#  basic:
+#    enabled: false
+
+#management:
+#  security:
+#    enabled: false
